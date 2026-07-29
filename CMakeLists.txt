@@ -3,4 +3,6 @@ project(ChessC)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(ChessC main.cpp)
+add_executable(ChessC main.cpp
+        piece.h
+        piece.cpp)
